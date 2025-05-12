@@ -15,9 +15,9 @@ YELLOW = (254, 228, 64)
 BORDER = pygame.Rect(WIDTH//2 - 5, 0, 10, HEIGHT)
 
 BULLET_HIT_SOUND = pygame.mixer.Sound(
-    "/Users/german/Documents/Coding/Python projects/My coding projects/GUI/PyGame/Test Game/Assets/Gun+Silencer.mp3")
+    "Gun+Silencer.mp3")
 BULLET_FIRE_SOUND = pygame.mixer.Sound(
-    "/Users/german/Documents/Coding/Python projects/My coding projects/GUI/PyGame/Test Game/Assets/Grenade+1.mp3")
+    "Grenade+1.mp3")
 
 HEALTH_FONT = pygame.font.SysFont('comicsans', 40)
 WINNER_FONT = pygame.font.SysFont('comicsans', 100)
@@ -33,16 +33,16 @@ RED_HIT = pygame.USEREVENT + 2
 
 
 SPACE = pygame.transform.scale(pygame.image.load(
-    "/Users/german/Documents/Coding/Python projects/My coding projects/GUI/PyGame/Test Game/Assets/space.png"), (WIDTH, HEIGHT))
+    "space.png"), (WIDTH, HEIGHT))
 
 
 YELLOW_SPACESHIP_IMAGE = pygame.image.load(
-    "/Users/german/Documents/Coding/Python projects/My coding projects/GUI/PyGame/Test Game/Assets/spaceship_yellow.png")
+    "spaceship_yellow.png")
 YELLOW_SPACESHIP = pygame.transform.rotate(pygame.transform.scale(YELLOW_SPACESHIP_IMAGE, (SPACESHIP_WIDTH, SPACESHIP_HEIGHT)), 90)
 
 
 RED_SPACESHIP_IMAGE = pygame.image.load(
-    "/Users/german/Documents/Coding/Python projects/My coding projects/GUI/PyGame/Test Game/Assets/spaceship_red.png")
+    "spaceship_red.png")
 RED_SPACESHIP = pygame.transform.rotate(pygame.transform.scale(RED_SPACESHIP_IMAGE, (SPACESHIP_WIDTH, SPACESHIP_HEIGHT)), 270)
 
 
